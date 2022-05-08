@@ -16,7 +16,10 @@ body{
     padding: 100px;
     cursor: url(./sword.png),auto;
 }
-h1,h2,h3,h4,h5,h6{font-family:'press start 2p', cursive;}
+h1,h2,h3,h4,h5,h6{
+    font-family:'press start 2p', cursive;
+    margin:0;
+}
 /* ---------------- */
 
 /* Container Section */
@@ -33,12 +36,13 @@ h1,h2,h3,h4,h5,h6{font-family:'press start 2p', cursive;}
 /* Main Section */
 .h1-text{
     font-size: 1.1rem; 
-    margin-top:20px;
-    margin-bottom: 0;
+    margin-top:1rem;
+    margin-bottom: 0.4rem;
     color: var(--hd-color);
 }
 .h5-text{
     font-size: 0.5rem;
+    margin-bottom: 0.7rem;
     color: #007f5f;
 }
 .Main-Section{
@@ -133,6 +137,9 @@ h1,h2,h3,h4,h5,h6{font-family:'press start 2p', cursive;}
 }
 .social{
     width: 30px;
+}
+.github{
+    border-radius: 5px;
 }
 /* Footer Section */
 
