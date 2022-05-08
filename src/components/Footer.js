@@ -9,10 +9,10 @@ export default function Footer(){
     return (
         <footer>
         <div className="socials-background">
-        <a href="https://github.com/furkananter"><img alt="github" className="social github" src={socialOne}/></a>
-        <a href="https://linkedin.com/in/furkananter"><img className="social" src={socialTwoTwo}/></a>
-        <a href="https://twitter.com/furkananter"><img className="social" src={socialThree}/></a>
-        <a href="https://open.spotify.com/playlist/0e2BGit37WzpKQ3Q9ZmmjN?si=ec71b55005f64a7f"><img className="social" src={socialFour}/></a>
+        <a href="https://github.com/furkananter" target="_blank"><img alt="github" className="social github" src={socialOne}/></a>
+        <a href="https://linkedin.com/in/furkananter" target="_blank"><img className="social" src={socialTwoTwo}/></a>
+        <a href="https://twitter.com/furkananter" target="_blank"><img className="social" src={socialThree}/></a>
+        <a href="https://open.spotify.com/playlist/0e2BGit37WzpKQ3Q9ZmmjN?si=ec71b55005f64a7f" target="_blank"><img className="social" src={socialFour}/></a>
         </div>
         </footer>
     )
