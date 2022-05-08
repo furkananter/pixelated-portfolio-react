@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
 * {
     box-sizing: border-box;
 }
 :root{
-    --bg-color: #dddf00;
+    --bg-color: black;
     --cont-color: #2BC016;
-    --hd-color: #ffff3f;
+    --hd-color: white;
 }
 
 body{
@@ -15,6 +16,7 @@ body{
     padding: 100px;
     cursor: url(./sword.png),auto;
 }
+h1,h2,h3,h4,h5,h6{font-family:'press start 2p', cursive;}
 /* ---------------- */
 
 /* Container Section */
@@ -45,6 +47,10 @@ body{
     align-items: center;
     color: var(--hd-color);
 }
+
+.button-container{
+    display: flex;
+}
 .btn{
     margin-right: 10px;
     font-family: 'Press Start 2P', cursive;
@@ -57,6 +63,13 @@ body{
     background-color: #297FE5;
     border: 1px solid var(--hd-color);
     color: white;
+}
+.btn-2 > img{
+    margin-left: 0.5px;
+    width:14px;
+}
+.btn-2:hover{
+    background-color: #2BC016;
 }
 
 @media (min-width: 375px) and (max-width: 768px){
@@ -98,6 +111,7 @@ body{
 /* About Section */
 .about-section{
     color: white;
+    font-family: 'Inter', sans-serif;
     font-size: 1rem;
     padding: 15px;
     /*make grid for me */
@@ -108,7 +122,17 @@ body{
 /* ---------------- */
 
 /* Footer Section */
-
+.socials-background{
+    background-color:#2b9348;
+    display: flex;
+    align-items: center;
+    padding:5px;
+    justify-content: space-around;
+    width: 100%;
+}
+.social{
+    width: 30px;
+}
 /* Footer Section */
 
 /* ---------------- */
@@ -116,7 +140,7 @@ body{
 /* Profile Image Section */
 .profile-image{
     width:100%;
-    border-radius: 10px 10px 0 0px;
+    border-radius: 10px 10px 0 0px; 
 }
 /* Profile Image Section */
 
