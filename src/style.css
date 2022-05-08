@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+* {
+    box-sizing: border-box;
+}
+:root{
+    --bg-color: #dddf00;
+    --cont-color: #2BC016;
+    --hd-color: #ffff3f;
+}
+
+body{
+    background-color: var(--bg-color);
+    font-family: 'Press Start 2P', cursive;
+    justify-content: center;
+    padding: 100px;
+    cursor: url(./sword.png),auto;
+}
+/* ---------------- */
+
+/* Container Section */
+.app-container{
+    background-color: var(--cont-color);
+    width:300px;
+    border-radius: 10px 10px 0 0px;
+    margin: auto;
+}
+/* Container Section */
+
+/* ---------------- */
+
+/* Main Section */
+.h1-text{
+    font-size: 1.1rem; 
+    margin-top:20px;
+    margin-bottom: 0;
+    color: var(--hd-color);
+}
+.h5-text{
+    font-size: 0.5rem;
+    color: #007f5f;
+}
+.Main-Section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--hd-color);
+}
+.btn{
+    margin-right: 10px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.6rem;
+    width: 100px;
+    height: 40px;
+    cursor: url(./sword.png),auto;
+}
+.btn-2{
+    background-color: #297FE5;
+    border: 1px solid var(--hd-color);
+    color: white;
+}
+
+@media (min-width: 375px) and (max-width: 768px){
+    .app-container{
+        width: 100%;
+        margin: auto;
+        height: 100%;
+    }
+    .about-section{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+}
+@media (min-width: 768px) and (max-width: 1000px){
+    .app-container{
+        width: 70%;
+        margin: auto;
+    }
+     .about-section{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+}
+@media (min-width: 1000px){
+    .app-container{
+        width: 300px;
+        margin: auto;
+    }
+     .about-section{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+}
+
+/* Main Section */
+
+/* ---------------- */
+
+/* About Section */
+.about-section{
+    color: white;
+    font-size: 1rem;
+    padding: 15px;
+    /*make grid for me */
+  
+}
+/* About Section */
+
+/* ---------------- */
+
+/* Footer Section */
+
+/* Footer Section */
+
+/* ---------------- */
+
+/* Profile Image Section */
+.profile-image{
+    width:100%;
+    border-radius: 10px 10px 0 0px;
+}
+/* Profile Image Section */
+
+/* ---------------- */
+
