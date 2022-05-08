@@ -52,6 +52,7 @@ h1,h2,h3,h4,h5,h6{font-family:'press start 2p', cursive;}
     display: flex;
 }
 .btn{
+    border-radius:0px;
     margin-right: 10px;
     font-family: 'Press Start 2P', cursive;
     font-size: 0.6rem;
@@ -61,15 +62,15 @@ h1,h2,h3,h4,h5,h6{font-family:'press start 2p', cursive;}
 }
 .btn-2{
     background-color: #297FE5;
-    border: 1px solid var(--hd-color);
     color: white;
 }
 .btn-2 > img{
     margin-left: 0.5px;
     width:14px;
 }
-.btn-2:hover{
-    background-color: #2BC016;
+.btn-2:hover, .btn-2 > img:hover{
+    background-color: black;
+    color: white;
 }
 
 @media (min-width: 375px) and (max-width: 768px){
